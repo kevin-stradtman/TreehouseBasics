@@ -14,5 +14,11 @@ public class Lists {
         System.out.println(groceryLine);
         String kevin = groceryLine.get(0);
         System.out.println(kevin);
+        int samIndex = groceryLine.indexOf("Sam");
+        System.out.println(samIndex);
+        System.out.println(groceryLine.size());
+        for (String name : groceryLine) {
+            System.out.println(name);
+        }
     }
 }
